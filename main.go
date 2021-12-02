@@ -20,6 +20,10 @@ func whichDay(day string) {
 	case "1":
 		fmt.Println("Running day 1")
 		days.One()
+	case "2":
+		fmt.Println("Running day 2")
+		days.Two()
+
 	default:
 		fmt.Println("Pick a day between 1 and 25")
 	}
@@ -28,3 +32,4 @@ func whichDay(day string) {
 //https://www.geeksforgeeks.org/go-operators/?ref=lbp
 //https://learnxinyminutes.com/docs/go/
 //https://www.golang-book.com/books/intro/6
+//https://www.golangprograms.com
